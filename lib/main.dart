@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:qr_scanner/consts.dart';
 import 'package:qr_scanner/ui/home/home_screen.dart';
 import 'package:qr_scanner/ui/qr_generator_screen.dart';
 import 'package:qr_scanner/ui/qr_scanner_screen.dart';
@@ -17,7 +18,7 @@ class QrScannerApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "QR Scanner App",
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey),
+        colorScheme: ColorScheme.fromSeed(seedColor: textColor),
         useMaterial3: true,
         fontFamily: 'SF-Pro-Rounded'
       ),
